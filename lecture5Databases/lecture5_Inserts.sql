@@ -1,4 +1,4 @@
---Branch
+#Branch
 INSERT INTO `branch_t`
 (`Branch_No`, `Street`, `City`, `Postcode`) VALUES ('B005', '22 Deer Rd', 'London', 'SW1 4EH');
 
@@ -14,7 +14,7 @@ INSERT INTO `branch_t`
 INSERT INTO `branch_t`
 (`Branch_No`, `Street`, `City`, `Postcode`) VALUES ('B002', '56 Clover Dr', 'London', 'NW10 6EU');
 
---Staff
+#Staff
 INSERT INTO `staff_t`
 (`Staff_No`, `F_Name`, `L_Name`, `Position`, `Sex`, `DOB`, `Salary`, `Branch_No`) VALUES ('SL21', 'John', 'White', 'Manager', 'M', '1-Oct-45', 30000, 'B005');
 
@@ -33,7 +33,7 @@ INSERT INTO `staff_t`
 INSERT INTO `staff_t`
 (`Staff_No`, `F_Name`, `L_Name`, `Position`, `Sex`, `DOB`, `Salary`, `Branch_No`) VALUES ('SL41', 'Julie', 'Lee', 'Assistant', 'F', '13-Jun-65', 9000, 'B005');
 
---PropertyForRent
+#PropertyForRent
 INSERT INTO `property_for_rent_t`
 (`Property_No`, `Street`, `City`, `Postcode`, `Type`, `Rooms`, `Rent`, `Owner_No`, `Staff_No`, `Branch_No`) VALUES ('PA14', '16 Hollhead', 'Aberdeen', 'AB7 5SU', 'House', 6, 650, 'CO46', 'SA9', 'B007');
 
@@ -52,15 +52,15 @@ INSERT INTO `property_for_rent_t`
 INSERT INTO `property_for_rent_t`
 (`Property_No`, `Street`, `City`, `Postcode`, `Type`, `Rooms`, `Rent`, `Owner_No`, `Staff_No`, `Branch_No`) VALUES ('PG16', '5 Novar Dr', 'Glassgow', 'G12 9AX', 'Flat', 4, 450, 'CO93', 'SG14', 'B003');
 
---Client
+#Client
 INSERT INTO `client_t`
-(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rernt`, `Rent`) VALUES ('CR76', 'John', 'Kay', '0207-774-5632', 'Flat', 425);
+(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rent`) VALUES ('CR76', 'John', 'Kay', '0207-774-5632', 'Flat', 425);
 
 INSERT INTO `client_t`
-(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rernt`, `Rent`) VALUES ('CR56', 'Aline', 'Sterwart', '0141-848-1825', 'Flat', 350);
+(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rent`) VALUES ('CR56', 'Aline', 'Sterwart', '0141-848-1825', 'Flat', 350);
 
 INSERT INTO `client_t`
-(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rernt`, `Rent`) VALUES ('CR74', 'Mike', 'Ritchie', '01475-392178', 'House', 750);
+(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rent`) VALUES ('CR74', 'Mike', 'Ritchie', '01475-392178', 'House', 750);
 
 INSERT INTO `client_t`
-(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rernt`, `Rent`) VALUES ('CR62', 'Mary', 'Tregear', '01224-196720', 'Flat', 600);
+(`Client_No`, `F_Name`, `L_Name`, `Tel_No`, `Pref_Type`, `Max_Rent`) VALUES ('CR62', 'Mary', 'Tregear', '01224-196720', 'Flat', 600);
